@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logos img {
+    height: 162px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+
+.SideBar {
+    position: absolute;
+    box-shadow: 0px 10px 10px 0.5px;
+    width: 12rem;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+.icons img {
+    height: 20px;
+    width: 20px;
+
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    gap: 3rem;
+    margin-left: 10px;
+}
+
+.icons ul li {
+    margin: 15px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: black;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: auto;
+}
+
+.Mobile-View{
+    display: none;
+}
+
+@media screen and (max-width:320px), (max-width:425px) {
+    .SideBar{
+        display: none;
+    }
+    .Mobile-View{
+        display:inline;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+.Navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    height: 2.5rem;
+    width: 100%;
+    background-color: rgb(156, 160, 160);
+ 
+}
+    .Navigation ul{
+        display: flex;
+        list-style: none;
+        gap: 4rem;
+    }
+    .Navigation img{
+        height: 24px;
+        
+    }
+}
+

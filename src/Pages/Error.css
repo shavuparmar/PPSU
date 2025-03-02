@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.errorimage {
+    text-align: center;
+}
+
+.errorimage img {
+    height: 45rem;
+}
+
+.NxtButton{
+    text-align: center;
+}
+
+.NxtButton button{
+    width: 10rem;
+    height: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(191, 199, 199);
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:425px) {
+    .errorimage img {
+        height:100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}

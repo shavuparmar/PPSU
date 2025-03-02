@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header-Logo-Section {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.Logos img {
+    height: 92px;
+}
+
+.Not-Chat-Section ul {
+    list-style: none;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.Not-Chat-Section ul img {
+    height: 24px;
+}
+
+.HeaderSection{
+    display: none;
+}
+@media screen and (max-width:320px),(max-width:425px)  {
+    .HeaderSection{
+        display: inline;
+    }
+}
